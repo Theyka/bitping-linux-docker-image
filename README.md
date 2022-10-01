@@ -1,9 +1,9 @@
 ## How to setup
 
  - Install bitping one time to your linux installed computer and login to your account (https://www.bitping.com/node#downloads)
- - GO to **~/.bitping** folder and look in it **credentials.json** (cat credentials.json)
- - Install docker (curl -sSL https://get.docker.com/ | CHANNEL=stable bash)
- - Download repository (git clone https://github.com/Theyka/bitping-linux-docker-image.git)
+ - GO to **~/.bitping** folder and look in it **credentials.json** (`cat credentials.json`)
+ - Install docker (`curl -sSL https://get.docker.com/ | CHANNEL=stable bash`)
+ - Download repository (`git clone https://github.com/Theyka/bitping-linux-docker-image.git`)
  - Build docker image
 
 ## How to build docker image
