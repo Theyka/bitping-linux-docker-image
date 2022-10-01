@@ -4,7 +4,13 @@
 #Create credentials.json
 cd 
 mkdir .bitping
-echo 'Your credentials.json file information here' > .bitping/credentials.json
+echo '{
+ "id": "$ID",
+ "name": "$NAME",
+ "email": "$EMAIL",
+ "token": "$TOKEN",
+ "error": ""
+}' > .bitping/credentials.json
 
 #Download and start bitping
 wget https://downloads.bitping.com/node/linux.zip
